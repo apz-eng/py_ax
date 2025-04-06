@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling >= 1.26", "jieba >= 0.42.1", "wordcloud >= 1.9.4", "matplotlib >= 3.10.1"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py_ax"
+version = "1.2.1"
+authors = [
+  { name = "apz__y", email="apz__y@126.com" },
+]
+description = "A package of python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/apz-eng/py_ax"
+Issues = "https://github.com/apz-eng/py_ax/issues"
